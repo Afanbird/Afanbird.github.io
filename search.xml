@@ -51,6 +51,33 @@
 ]]></content>
   </entry>
   <entry>
+    <title>攻防世界open-source</title>
+    <url>/2021/07/20/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8Copen-source/</url>
+    <content><![CDATA[<h1 id="攻防世界-open-source"><a href="#攻防世界-open-source" class="headerlink" title="攻防世界 open-source"></a>攻防世界 open-source</h1><p>下载附件，发现就是.c源代码，直接打开。</p>
+<p><img src="https://img-blog.csdnimg.cn/20210715105111886.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FmYW56Y2Y=,size_16,color_FFFFFF,t_70"></p>
+<p>查看代码，发现，</p>
+<p>if (first != 0xcafe)，如果frist不等于0Xcafe，就结束程序。</p>
+<p>所以first=0Xcafé。</p>
+<p>if (second % 5 == 3 || second % 17 != 8)，如果second对5取余数等于3或者对17取余不等于8，则结束程序。</p>
+<p>所以second=对5取余不等于3和对17取余等于8的数。</p>
+<p>所以最小second=25。</p>
+<p>if (strcmp(“h4cky0u”, argv[3]))，这两个字符串比较，相等返回0，不相等，前面大返回正数，后面的大返回负数。</p>
+<p>所以这里argv[3]=h4cky0u。</p>
+<p>然后unsigned int hash = first * 31337 +(second % 17) * 11 + strlen(argv[3]) - 1615810207;</p>
+<p>print(hex(hash))</p>
+<p>得到flag 0xc0ffee</p>
+<p>hash))</p>
+<p>得到flag 0xc0ffee</p>
+<p><img src="https://img-blog.csdnimg.cn/20210715105049330.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FmYW56Y2Y=,size_16,color_FFFFFF,t_70"></p>
+]]></content>
+      <categories>
+        <category>CTF逆向新手</category>
+      </categories>
+      <tags>
+        <tag>攻防世界</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Buuctf-不一样的flag</title>
     <url>/2021/07/20/%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84flag/</url>
     <content><![CDATA[<h1 id="BUUCTF-不一样的flag"><a href="#BUUCTF-不一样的flag" class="headerlink" title="BUUCTF   不一样的flag"></a>BUUCTF   不一样的flag</h1><h3 id="考点：还是基础的IDA使用。"><a href="#考点：还是基础的IDA使用。" class="headerlink" title="考点：还是基础的IDA使用。"></a>考点：还是基础的IDA使用。</h3><p><img src="https://img-blog.csdnimg.cn/20210715155203871.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FmYW56Y2Y=,size_16,color_FFFFFF,t_70"></p>
@@ -86,33 +113,6 @@
       </categories>
       <tags>
         <tag>BUUCTF</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>攻防世界open-source</title>
-    <url>/2021/07/20/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8Copen-source/</url>
-    <content><![CDATA[<h1 id="攻防世界-open-source"><a href="#攻防世界-open-source" class="headerlink" title="攻防世界 open-source"></a>攻防世界 open-source</h1><p>下载附件，发现就是.c源代码，直接打开。</p>
-<p><img src="https://img-blog.csdnimg.cn/20210715105111886.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FmYW56Y2Y=,size_16,color_FFFFFF,t_70"></p>
-<p>查看代码，发现，</p>
-<p>if (first != 0xcafe)，如果frist不等于0Xcafe，就结束程序。</p>
-<p>所以first=0Xcafé。</p>
-<p>if (second % 5 == 3 || second % 17 != 8)，如果second对5取余数等于3或者对17取余不等于8，则结束程序。</p>
-<p>所以second=对5取余不等于3和对17取余等于8的数。</p>
-<p>所以最小second=25。</p>
-<p>if (strcmp(“h4cky0u”, argv[3]))，这两个字符串比较，相等返回0，不相等，前面大返回正数，后面的大返回负数。</p>
-<p>所以这里argv[3]=h4cky0u。</p>
-<p>然后unsigned int hash = first * 31337 +(second % 17) * 11 + strlen(argv[3]) - 1615810207;</p>
-<p>print(hex(hash))</p>
-<p>得到flag 0xc0ffee</p>
-<p>hash))</p>
-<p>得到flag 0xc0ffee</p>
-<p><img src="https://img-blog.csdnimg.cn/20210715105049330.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FmYW56Y2Y=,size_16,color_FFFFFF,t_70"></p>
-]]></content>
-      <categories>
-        <category>CTF逆向新手</category>
-      </categories>
-      <tags>
-        <tag>攻防世界</tag>
       </tags>
   </entry>
 </search>
