@@ -47,4 +47,41 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>Buuctf-SimpleRev</title>
+    <url>/2021/07/20/%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84flag/</url>
+    <content><![CDATA[<h2 id="BUUCTF-不一样的flag"><a href="#BUUCTF-不一样的flag" class="headerlink" title="BUUCTF   不一样的flag"></a>BUUCTF   不一样的flag</h2><h3 id="考点：还是基础的IDA使用。"><a href="#考点：还是基础的IDA使用。" class="headerlink" title="考点：还是基础的IDA使用。"></a>考点：还是基础的IDA使用。</h3><p><img src="%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84flag/9.png" alt="你想要输入的替代文字"></p>
+<h4 id="拿到题目，先打开程序。"><a href="#拿到题目，先打开程序。" class="headerlink" title="拿到题目，先打开程序。"></a>拿到题目，先打开程序。</h4><p><img src="%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84flag/1.png" alt="你想要输入的替代文字"></p>
+<p>乱按一通之后，会闪退。</p>
+<h4 id="Exeinfo-PE打开之后，发现是32位。"><a href="#Exeinfo-PE打开之后，发现是32位。" class="headerlink" title="Exeinfo PE打开之后，发现是32位。"></a>Exeinfo PE打开之后，发现是32位。</h4><p><img src="%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84flag/2.png" alt="你想要输入的替代文字"></p>
+<p>IDA pro32位的打开。</p>
+<h4 id="shift-F12-查看字符串窗口，发现一串字符串。"><a href="#shift-F12-查看字符串窗口，发现一串字符串。" class="headerlink" title="shift + F12 查看字符串窗口，发现一串字符串。"></a>shift + F12 查看字符串窗口，发现一串字符串。</h4><p>双击定位。<img src="%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84flag/3.png" alt="你想要输入的替代文字"></p>
+<p><img src="%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84flag/4.png" alt="你想要输入的替代文字"></p>
+<h4 id="ctrl-X-交叉引用"><a href="#ctrl-X-交叉引用" class="headerlink" title="ctrl + X 交叉引用"></a>ctrl + X 交叉引用</h4><p><img src="%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84flag/5.png" alt="你想要输入的替代文字"></p>
+<p><img src="%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84flag/6.png" alt="你想要输入的替代文字"></p>
+<h4 id="F5反编译后得到如下的伪代码："><a href="#F5反编译后得到如下的伪代码：" class="headerlink" title="F5反编译后得到如下的伪代码："></a>F5反编译后得到如下的伪代码：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">int __cdecl main(int argc, const char **argv, const char **envp)</span><br><span class="line">&#123;</span><br><span class="line">  char v3; // [esp+17h][ebp-35h]</span><br><span class="line">  int v4; // [esp+30h][ebp-1Ch]</span><br><span class="line">  int v5; // [esp+34h][ebp-18h]</span><br><span class="line">  signed int v6; // [esp+38h][ebp-14h]</span><br><span class="line">  int i; // [esp+3Ch][ebp-10h]</span><br><span class="line">  int v8; // [esp+40h][ebp-Ch]</span><br><span class="line"></span><br><span class="line">  __main();</span><br><span class="line">  v4 = 0;</span><br><span class="line">  v5 = 0;</span><br><span class="line">  qmemcpy(&amp;v3, _data_start__, 0x19u);</span><br><span class="line">  while ( 1 )</span><br><span class="line">  &#123;</span><br><span class="line">    puts(&quot;you can choose one action to execute&quot;);</span><br><span class="line">    puts(&quot;1 up&quot;);</span><br><span class="line">    puts(&quot;2 down&quot;);</span><br><span class="line">    puts(&quot;3 left&quot;);</span><br><span class="line">    printf(&quot;4 right\n:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;v6);</span><br><span class="line">    if ( v6 == 2 )</span><br><span class="line">    &#123;</span><br><span class="line">      ++v4;</span><br><span class="line">    &#125;</span><br><span class="line">    else if ( v6 &gt; 2 )</span><br><span class="line">    &#123;</span><br><span class="line">      if ( v6 == 3 )</span><br><span class="line">      &#123;</span><br><span class="line">        --v5;</span><br><span class="line">      &#125;</span><br><span class="line">      else</span><br><span class="line">      &#123;</span><br><span class="line">        if ( v6 != 4 )</span><br><span class="line">LABEL_13:</span><br><span class="line">          exit(1);</span><br><span class="line">        ++v5;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    else</span><br><span class="line">    &#123;</span><br><span class="line">      if ( v6 != 1 )</span><br><span class="line">        goto LABEL_13;</span><br><span class="line">      --v4;</span><br><span class="line">    &#125;</span><br><span class="line">    for ( i = 0; i &lt;= 1; ++i )</span><br><span class="line">    &#123;</span><br><span class="line">      if ( *(&amp;v4 + i) &lt; 0 || *(&amp;v4 + i) &gt; 4 )</span><br><span class="line">        exit(1);</span><br><span class="line">    &#125;</span><br><span class="line">    if ( *((_BYTE *)&amp;v8 + 5 * v4 + v5 - 41) == 49 )</span><br><span class="line">      exit(1);</span><br><span class="line">    if ( *((_BYTE *)&amp;v8 + 5 * v4 + v5 - 41) == 35 )</span><br><span class="line">    &#123;</span><br><span class="line">      puts(&quot;\nok, the order you enter is the flag!&quot;);</span><br><span class="line">      exit(0);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>我们看到if语句这个49和35有点奇怪，R字符转换之后。</p>
+<p><img src="%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84flag/7.png" alt="你想要输入的替代文字"></p>
+<h4 id="分析一波，"><a href="#分析一波，" class="headerlink" title="分析一波，"></a>分析一波，</h4><p>此处两个if的意思是，如果这一串代码 == 1，就异常退出。如果这一串代码 == #，就输出一句话，并正常退出。</p>
+<p>没有思路再回去看题目的提示，</p>
+<h4 id="发现关键点是字符串，"><a href="#发现关键点是字符串，" class="headerlink" title="发现关键点是字符串，"></a>发现关键点是字符串，</h4><p>再次寻找字符串窗口，看到一串字符串。</p>
+<p><img src="%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84flag/8.png" alt="你想要输入的替代文字"><br>发现 1 和 # ，推测一波，这是不是就是迷宫的地图，</p>
+<p>*11110100001010000101111#</p>
+<h4 id="把它分成5个一组得到："><a href="#把它分成5个一组得到：" class="headerlink" title="把它分成5个一组得到："></a>把它分成5个一组得到：</h4><p>*1111</p>
+<p>01000</p>
+<p>01010</p>
+<p>00010</p>
+<p>1111#</p>
+<p>可以发现是从*开始走，走 0 不走 1，所以由上到下应该是 下下下右右上上右右下下下。</p>
+<p>对应的数字是222441144222</p>
+<p>走出迷宫，推测正确。</p>
+]]></content>
+      <categories>
+        <category>CTF逆向新手</category>
+      </categories>
+      <tags>
+        <tag>BUUCTF</tag>
+      </tags>
+  </entry>
 </search>
