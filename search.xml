@@ -33,6 +33,24 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2021/07/18/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Buuctf-不一样的flag</title>
     <url>/2021/07/20/%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84flag/</url>
     <content><![CDATA[<h1 id="BUUCTF-不一样的flag"><a href="#BUUCTF-不一样的flag" class="headerlink" title="BUUCTF   不一样的flag"></a>BUUCTF   不一样的flag</h1><h3 id="考点：还是基础的IDA使用。"><a href="#考点：还是基础的IDA使用。" class="headerlink" title="考点：还是基础的IDA使用。"></a>考点：还是基础的IDA使用。</h3><p><img src="https://img-blog.csdnimg.cn/20210715155203871.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FmYW56Y2Y=,size_16,color_FFFFFF,t_70"></p>
@@ -245,21 +263,169 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2021/07/18/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>第二章寄存器</title>
+    <url>/2021/07/23/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%84%E5%AD%98%E5%99%A8/</url>
+    <content><![CDATA[<h1 id="第2章-寄存器"><a href="#第2章-寄存器" class="headerlink" title="第2章 寄存器"></a>第2章 寄存器</h1><p>一个典型的CPU（此处讨论的不是某一具体的CPU）由运算器、控制器、寄存器（CPU工作原理）等器件构成，这些器件靠内部总线相连。</p>
+<p>前一章所说的总线，相对于CPU内部来说是外部总线。</p>
+<p>内部总线实现CPU内部各个器件之间的联系，外部总线实现CPU和主板上其他器件的联系。</p>
+<p>在CPU中：</p>
+<p>运算器进行信息处理；</p>
+<p>寄存器进行信息存储；</p>
+<p>控制器控制各种器件进行工作；</p>
+<p>内部总线连接各种器件，在他们之间进行数据的传送。</p>
+<p>对于一个汇编程序员来说，CPU中的主要部件是寄存器。寄存器是CPU中程序员可以用指令读写的部件。程序员通过改变各种寄存器中的内容来实现对CPU的控制。</p>
+<h2 id="2-1通用寄存器"><a href="#2-1通用寄存器" class="headerlink" title="2.1通用寄存器"></a>2.1通用寄存器</h2><p>8086CPU 的所有寄存器都是16位的，可以存放两个字节。</p>
+<p>AX、BX、CX、DX这4个寄存器通常用来存放一般性的数据，被称为通用寄存器。</p>
+<p>8086CPU的上一代 CPU 中的寄存器都是8位的，为了保证兼容，使原来基于上代CPU编写的程序稍加修改就可以运行在8086之上，8086CPU的AX、BX、CX、DX这4个寄存器都可分为两个可独立使用的8位寄存器来用:</p>
+<p>AX可分为AH和AL；</p>
+<p>BX可分为BH和BL；</p>
+<p>CX可分为CH和CL；</p>
+<p>DX可分为DH和DL。</p>
+<p>AX的低8位（0位<del>7位）构成了AL寄存器，高8位（8位</del>15位）构成了AH寄存器。</p>
+<p>AH和AL是可以独立使用的8位寄存器。</p>
+<h2 id="2-2字在寄存器中的存储"><a href="#2-2字在寄存器中的存储" class="headerlink" title="2.2字在寄存器中的存储"></a>2.2字在寄存器中的存储</h2><p>字节:记为 byte，一个字节由8个bit组成，可以存在8位寄存器中。</p>
+<p>字:记为word，一个字由两个字节组成，这两个字节分别称为这个字的高位字节和低位字节。 </p>
+<p>在十六进制后面加H，二进制后面加B，十进制什么都不加。</p>
+<p>由于一个内存单元可存放8位数据,CPU中的寄存器又可存放n个8位的数据。</p>
+<p>也就是说，计算机中的数据大多是由1~N个8位数据构成的。</p>
+<p>很多时候，需要直观地看出组成数据的各个字节数据的值，用十六进制来表示数据可以直观地看出这个数据是由哪些8位数据构成的。比如20000写成4E20就可以直观地看出，这个数据是由4E和20两个8位数据构成的，如果AX中存放4E20，则AH里是4E,AL里是20。这种表示方法便于许多问题的直观分析。在以后的课程中，我们多用十六进制来表示一个数据。</p>
+<h2 id="2-3几条汇编指令"><a href="#2-3几条汇编指令" class="headerlink" title="2.3几条汇编指令"></a>2.3几条汇编指令</h2><p>在写一条汇编指令或一个寄存器的名称时不区分大小写。</p>
+<p>汇编指令举例：</p>
+<p>汇编指令：mov ax，18     CPU完成的操作：将18送入寄存器AX    高级语言：AX=18  </p>
+<p>汇编指令：mov ah，78     CPU完成的操作：将78送入寄存器AH   高级语言：AH=78</p>
+<p>汇编指令：add ax，8        CPU完成的操作：将寄存器AX中的数值加上8   高级语言：AX</p>
+<p>汇编指令：mov ax，bx        CPU完成的操作：将寄存器BX中的数值送入寄存器AX   高级语言：AX=BX</p>
+<p>汇编指令：add ax，bx       CPU完成的操作：把bx的值加到ax上     高级语言：AX=AX+BX</p>
+<p>一个16位寄存器可以存储一个16位的数据。</p>
+<p>ax为16为寄存器，只能存放4位十六进制的数据。，所以最高位的1不能在ax中保存，ax的数据为：004CH（汇编语言p18）</p>
+<p>理解：16位寄存器，可以存储一个16位的数据，4位十六进制就是16位。</p>
+<p>（p18页，电子版p30页 ）程序段中的最后一条指令add al,93H，在执行前，al 中的数据为C5H,相加后所得的值为:158H，但是al为8位寄存器，只能存放两位十六进制的数据，所以最高位的1丢失，ax 中的数据为:0058H。(这里的丢失，指的是进位值不能在8位寄存器中保存，但是CPU并不真的丢弃这个进位值，关于这个问题，我们将在后面的课程中讨论。)</p>
+<p>注意，此时al是作为一个独立的8位寄存器来使用的，和 ah没有关系，CPU在执行这条指令时认为 ah和 al是两个不相关的寄存器。不要错误地认为，诸如add al,93H的指令产生的进位会存储在ah 中，add al,93H进行的是8位运算。</p>
+<p>如果执行add ax,93H，低8位的进位会存储在ah中，CPU在执行这条指令时认为只有一个16位寄存器ax，进行的是16位运算。指令add ax,93H 执行后，ax 中的值为:0158H。此时，使用的寄存器是16位寄存器ax，add ax,93H相当于将ax 中的16位数据00c5H和另一个16位数据0093H相加，结果是16位的0158H。</p>
+<p>在进行数据传送或运算时，要注意指令的两个操作对象的位数应当是一致的。</p>
+<p><img src="file:///D:/TreedNote/annex/AttAnnex20210710_103002346.png" alt="img"></p>
+<h2 id="2-4物理地址"><a href="#2-4物理地址" class="headerlink" title="2.4物理地址"></a>2.4物理地址</h2><p>我们知道，CPU 访问内存单元时，要给出内存单元的地址。所有的内存单元构成的存储空间是一个一维的线性空间，每一个内存单元在这个空间中都有唯一的地址，我们将这个唯一的地址称为物理地址。</p>
+<p>CPU通过地址总线送入存储器的，必须是一个内存单元的物理地址。在CPU向地址总线上发出物理地址之前，必须要在内部先形成这个物理地址。不同的CPU可以有不同的形成物理地址的方式。我们现在讨论8086CPU是如何在内部形成内存单元的物理地址的。</p>
+<h2 id="2-5-16位结构的CPU"><a href="#2-5-16位结构的CPU" class="headerlink" title="2.5  16位结构的CPU"></a>2.5  16位结构的CPU</h2><p>概括地讲，16位结构(16位机、字长为16位等常见说法，与16位结构的含义相同)描述了一个CPU具有下面几方面的结构特性。</p>
+<p>运算器一次最多可以处理16位的数据;</p>
+<p>寄存器的最大宽度为16位;</p>
+<p>寄存器和运算器之间的通路为16位。</p>
+<p>8086是16位结构的CPU，这也就是说，在8086内部，能够一次性处理、传输、暂时存储的信息的最大长度是16位的。内存单元的地址在送上地址总线之前，必须在 CPU中处理、传输、暂时存放，对于16位CPU，能一次性处理、传输、暂时存储16位的地址。</p>
+<h2 id="2-6-8086CPU给出物理地址的方法"><a href="#2-6-8086CPU给出物理地址的方法" class="headerlink" title="2.6  8086CPU给出物理地址的方法"></a>2.6  8086CPU给出物理地址的方法</h2><p>8086CPU有20位地址总线，可以传送20位地址，达到1MB寻址能力。（2的20次方）</p>
+<p>8086CPU又是16位结构，在内部一次性处理、传输、暂时存储的地址为16位。</p>
+<p>从8086CPU 的内部结构来看，如果将地址从内部简单地发出，那么它只能送出16位的地址，表现出的寻址能力只有64KB。（2的16次方）  1KB为2的10次方，地址总线寻址是寻内存单元，1个内存单元就是1个byte，也就是8个bit，8个二进制位。</p>
+<p>8086CPU采用一种在内部用两个16位地址合成的方法来形成一个20位的物理地址。</p>
+<p>如图2.6所示，当8086CPU要读写内存时:（书p21页，电子版33页）</p>
+<p>(1) CPU中的相关部件提供两个16位的地址，一个称为段地址，另一个称为偏移地址;</p>
+<p>(2)段地址和偏移地址通过内部总线送入一个称为地址加法器的部件;</p>
+<p>(3)地址加法器将两个16位地址合成为一个20位的物理地址;</p>
+<p>(4)地址加法器通过内部总线将20位物理地址送入输入输出控制电路;</p>
+<p>(5)输入输出控制电路将20位物理地址送上地址总线;</p>
+<p>(6)20位物理地址被地址总线传送到存储器。 </p>
+<p>地址加法器采用物理地址=段地址×16+偏移地址的方法用段地址和偏移地址合成物理地址。</p>
+<p>例如，8086CPU要访问地址为123C8H的内存单元，此时，地址加法器的工作过程如图2.7所示(图中数据皆为十六进制表示)。</p>
+<p>16为十进制，转化为十六进制是10，所以1230H乘以16等于12300H</p>
+<p>一个数据的二进制形式左移N位，相当于该数据乘以2的N次方</p>
+<p>一个X进制的数据左移1位，相当于乘以X。</p>
+<h2 id="2-6-1-段地址-16引发的讨论"><a href="#2-6-1-段地址-16引发的讨论" class="headerlink" title="2.6.1  段地址*16引发的讨论"></a>2.6.1  段地址*16引发的讨论</h2><p>16为十进制，转化为十六进制是10，所以1230H乘以16等于12300H</p>
+<p>一个数据的二进制形式左移N位，相当于该数据乘以2的N次方</p>
+<p>一个X进制的数据左移1位，相当于乘以X。</p>
+<h2 id="2-7-段地址-16-偏移地址-物理地址的本质含义"><a href="#2-7-段地址-16-偏移地址-物理地址的本质含义" class="headerlink" title="2.7 段地址*16+偏移地址=物理地址的本质含义"></a>2.7 段地址*16+偏移地址=物理地址的本质含义</h2><p>注意，这里讨论的是8086CPU 段地址和偏移地址的本质含义，而不是为了解决具体的问题而在本质含义之上引申出来的更高级的逻辑意义。</p>
+<p>不管以多少种不同的逻辑意义去看待“段地址×16+偏移地址=物理地址”的寻址模式，一定要清楚地知道它的本质含义，这样才能更灵活地利用它来分析、解决问题。如果只拘泥于某一种引申出来的逻辑含义，而模糊本质含义的话，将从意识上限制对这种寻址功能的灵活应用。</p>
+<p>段地址✖16+偏移地址=物理地址的本质含义是：</p>
+<p>CPU在访问内存的时，用一个基础地址（段地址✖16）和一个相对与基础地址的偏移地址相加，给出内存单元的物理地址。</p>
+<p>基础地址+偏移地址=物理地址</p>
+<p>这里的16是十进制，转为十六进制就是 10H，所以段地址✖16，也就是等于  乘以10H。</p>
+<h2 id="2-8段的概念"><a href="#2-8段的概念" class="headerlink" title="2.8段的概念"></a>2.8段的概念</h2><p>内存并没有分段，段的划分来自于CPU。</p>
+<p>由于8086CPU用“基础地址(段地址x16)+偏移地址=物理地址”的方式给出内存单元的物理地址，</p>
+<p>使得我们可以用分段的方式来管理内存。</p>
+<p>如图2.9所示，我们可以认为:地址10000H~100FFH 的内存单元组成一个段，</p>
+<p>该段的起始地址(基础地址)为10000H，段地址为 1000H，大小为100H;</p>
+<p>（10000H➗10H=1000H），十六进制FF转为十进制是255，十进制的256转为十六进制为100</p>
+<p>我们也可以认为地址10000H<del>1007FH、10080H</del>100FFH 的内存单元组成两个段，它们的起始地址(基础地址)为:10000H和10080H，段地址为:1000H和1008H，大小都为80H。</p>
+<p>以后，在编程时可以根据需要，将若干地址连续的内存单元看作一个段，用段地址x16定位段的起始地址(基础地址)，用偏移地址定位段中的内存单元。有两点需要注意:段地址×16必然是16的倍数，所以一个段的起始地址也一定是16的倍数;偏移地址为16位，16位地址的寻址能力为64KB，所以一个段的长度最大为64KB。</p>
+<h2 id="2-8-1内存单元地址小结（重点）"><a href="#2-8-1内存单元地址小结（重点）" class="headerlink" title="2.8.1内存单元地址小结（重点）"></a>2.8.1内存单元地址小结（重点）</h2><p>CPU访问内存单元时，必修向内存提供内存单元的物理地址。</p>
+<p>结论：CPU可以用不同的段地址和偏移地址形成一个物理地址。</p>
+<p>SA是段地址，EA是偏移地址。</p>
+<p>结论：偏移地址16位，变化范围为0~FFFFH，仅用偏移地址来寻址最多可以寻64kb个内存单元（1个内存单元=1个byte）。</p>
+<p>解释：16位，寻址最多就是2的16次方，也就是65536。而FFFF转为10进制就是65535。而64kb，是2的16次方除以2的10次方，还有2的6次方，也就是64kb。</p>
+<p>在8086PC机中,存储单元的地址用两个元素来描述,即段地址和偏移地址。</p>
+<p>“数据在21F60H内存单元中。”这句话对于8086PC机一般不这样讲,取而代之的是两种类似的说法:①数据存在内存2000:1F60单元中;②数据存在内存的2000H段中的1F60H单元中。这两种描述都表示“数据在内存21F60H单元中”。</p>
+<p>可以根据需要，将地址连续、起始地址为16的倍数的一组内存单元定义为一个段。</p>
+<h2 id="2-8-2检测点2-2"><a href="#2-8-2检测点2-2" class="headerlink" title="2.8.2检测点2.2"></a>2.8.2检测点2.2</h2><ol start="2">
+<li>有一数据存放在内存20000H单元中，现给定段地址为SA，若想用偏移地址寻到此单元。则SA应满足的条件是：最小为 1001H ，最大为 2000H 。</li>
+</ol>
+<p>当段地址给定为 1001H 以下和 2000H 以上，CPU无论怎么变化偏移地址都无法寻到20000H单元。</p>
+<p>解题过程：</p>
+<p>物理地址＝SA*16+EA   </p>
+<p>20000h＝SA*16+EA   </p>
+<p>SA=(20000h-EA)/16=2000h-EA/16   </p>
+<p>EA取最大值时,SA=2000h-ffffh/16=1001h,SA为最小值   </p>
+<p>EA取最小值时,SA=2000h-0h/16=2000h,SA为最大值 </p>
+<p>这里的ffffH/16=fffh是通过WIN自带计算器算的</p>
+<p>按位移来算确实应该为fff.fh,这里小数点后的f应该是省略了</p>
+<p>单就除法来说，应有商和余数，但此题要求的是地址最大和最小，所以余数忽略了</p>
+<p>如果根据位移的算法（段地址*16＝16进制左移一位），小数点后应该是不能省略的</p>
+<p>我们可以反过来再思考下，如果SA为1000h的话，小数点后省略</p>
+<p>SA=1000h,EA取最大ffffh，物理地址为1ffffh，将无法寻到20000H单元</p>
+<p>这道题不应看成是单纯的计算题<br>————————————————<br>版权声明：本文为CSDN博主「就是217」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/qq_42777804/article/details/90512159">https://blog.csdn.net/qq_42777804/article/details/90512159</a></p>
+<h2 id="2-9段寄存器"><a href="#2-9段寄存器" class="headerlink" title="2.9段寄存器"></a>2.9段寄存器</h2><p>段地址在8086CPU中的段寄存器中存放。</p>
+<p>8086CPU有四个段寄存器：CS、DS、SS、ES。</p>
+<p>当8086CPU要访问内存时由这4个段寄存器提供内存单元的段地址。</p>
+<h2 id="2-10-CS和IP"><a href="#2-10-CS和IP" class="headerlink" title="2.10 CS和IP"></a>2.10 CS和IP</h2><p>CS和IP是8086CPU中两个最关键的寄存器，它们指示了CPU当前要读取指令的地址。</p>
+<p>CS为代码段寄存器，IP为指令指针寄存器。</p>
+<p>在8086PC 机中，任意时刻，设CS中的内容为M，IP中的内容为N，8086CPU将从内存Mx16+N单元开始，读取一条指令并执行。</p>
+<p>也可以这样表述:8086机中，任意时刻，CPU将CS:IP指向的内容当作指令执行。</p>
+<p>通过上面的过程展示，8086CPU的工作过程可以简要描述如下。（书上p26-p31）</p>
+<p>(1)从CS:IP指向的内存单元读取指令，读取的指令进入指令缓冲器;</p>
+<p>(2)IP=IP+所读取指令的长度，从而指向下一条指令;</p>
+<p>(3)执行指令。转到步骤(1)，重复这个过程。</p>
+<p>在8086CPU .加电启动或复位后(即CPU刚开始工作时)CS和IP被设置为CS=FFFFH，IP=0000H，即在8086PC 机刚启动时，CPU从内存FFFFOH单元中读取指令执行，FFFFOH单元中的指令是8086PC机开机后执行的第一条指令。</p>
+<p>现在，我们更清楚了CS和IP的重要性，它们的内容提供了CPU 要执行指令的地址。</p>
+<p>我们在第1章中讲过，在内存中，指令和数据没有任何区别，都是二进制信息，CPU在工作的时候把有的信息看作指令，有的信息看作数据。现在，如果提出一个问题:CPU根据什么将内存中的信息看作指令﹖如何回答﹖我们可以说，CPU将CS:IP指向的内存单元中的内容看作指令，因为，在任何时候，CPU将CS、IP中的内容当作指令的段地址和偏移地址，用它们合成指令的物理地址，到内存中读取指令码，执行。如果说，内存中的一段信息曾被CPU执行过的话，那么，它所在的内存单元必然被CS:IP指向过。</p>
+<h2 id="2-11修改CS、IP的指令（jmp转移指令）"><a href="#2-11修改CS、IP的指令（jmp转移指令）" class="headerlink" title="2.11修改CS、IP的指令（jmp转移指令）"></a>2.11修改CS、IP的指令（jmp转移指令）</h2><p>在CPU 中，程序员能够用指令读写的部件只有寄存器，</p>
+<p>程序员可以通过改变寄存器中的内容实现对CPU的控制。</p>
+<p>CPU从何处执行指令是由CS、IP中的内容决定的，</p>
+<p>程序员可以通过改变CS、IP中的内容来控制CPU执行目标指令。</p>
+<p>mov指令被称为传送指令，PCU大部分寄存器都可以用mov来改变值。</p>
+<p>但是mov指令不能设置CS、IP的值，因为8086CPU没有设置这样的功能。</p>
+<p>能够改变CS、IP的内容指令被统称为转移指令。</p>
+<p>一个最简单的修改CS、IP的值的指令：jmp指令。</p>
+<p>若想同时修改CS、IP的内容，可用形如“jmp段地址:偏移地址”的指令完成，</p>
+<p>如jmp 2AE3:3，执行后:CS=2AE3H，IP=0003H，CPU将从2AE33H处读取指令。</p>
+<p>jmp 3:0B16，执行后:CS=0003H，IP=0B16H，CPU将从00B46H处读取指令。</p>
+<p>“jmp 段地址:偏移地址”指令的功能为:用指令中给出的段地址修改CS，偏移地址修改IP。</p>
+<p>若想仅修改IP的内容，可用形如“jmp某一合法寄存器”的指令完成，如</p>
+<p>jmp ax，指令执行前:ax=1000H，CS=2000H，IP=0003H</p>
+<p>​                     指令执行后: ax=1000H，CS=2000H，IP=1000H</p>
+<p>jmp bx，指令执行前: bx=OB16H，CS=2000H，IP=0003H</p>
+<p>​              指令执行后: bx=0B16H，CS=2000H，IP=0B16H</p>
+<p>“jmp 某一合法寄存器”指令的功能为:用寄存器中的值修改IP。</p>
+<p>jmp ax，在含义上好似: mov IP,ax。（IP = ax）</p>
+<h2 id="检测点2-3（IP修改几次）"><a href="#检测点2-3（IP修改几次）" class="headerlink" title="检测点2.3（IP修改几次）"></a>检测点2.3（IP修改几次）</h2><p>下面的3条指令执行后，CPU几次修改IP？都是在什么时候？最后IP中的值是多少？</p>
+<p>mov ax，bx</p>
+<p>sub ax，bx</p>
+<p>jmp ax。</p>
+<p>指令缓冲器                                         CS：IP                                        执行结果</p>
+<p>mov ax，bx                               IP = IP+2                                ax = bx</p>
+<p>sub ax，ax                                 IP = IP+2                                ax = 0</p>
+<p>jmp ax                                       IP = IP+2                                IP = ax = 0</p>
+<p>观察一下：就很清楚，CPU总共修改了 <strong>4次</strong> IP，第一次：CPU 读取指令mov ax, bx到指令缓冲器，读入后，IP = IP + 2；第二次：CPU 读取指令sub ax, ax，读入后，IP = IP + 2；第三次：CPU读取指令jmp ax, 读入后，IP = IP + 2；第四次：指令jmp ax被执行后，IP = 0。<strong>千万注意</strong>：第三次读取指令jmp ax到指令缓冲器后，IP = IP + 2，表明这条指令CPU已经读入，然后 IP 指向这条指令的下一条指令。之后，IP = 0，是指令 jmp ax 被执行的结果。</p>
+<h2 id="2-12代码段"><a href="#2-12代码段" class="headerlink" title="2.12代码段"></a>2.12代码段</h2><p>前面讲过，对于8086PC 机，在编程时，可以根据需要，将一组内存单元定义为一个段。</p>
+<p>我们可以将长度为N(N≤64KB)的一组代码，存在一组地址连续、起始地址为16的倍数的内存单元中，我们可以认为，这段内存是用来存放代码的，从而定义了一个代码段。</p>
+<p>电子书p46页，书上34页。</p>
+<p>这段长度为10个字节的指令，存放在123B0H<del>123B9H的一组内存单元中，我们就可以认为，123BOH</del>123B9H这段内存是用来存放代码的，是一个代码段，它的段地址为123BH，（基础地址就是123BH✖10 = 123B0H）所以长度为10个字节。</p>
+<p>如何使得代码段中的指令被执行呢?</p>
+<p>将一段内存当作代码段，仅仅是我们在编程时的一种安排，CPU 并不会由于这种安排，就自动地将我们定义的代码段中的指令当作指令来执行。</p>
+<p>CPU 只认被CS:IP指向的内存单元中的内容为指令。</p>
+<p>所以，要让CPU执行我们放在代码段中的指令，必须要将CS:IP指向所定义的代码段中的第一条指令的首地址。</p>
+<p>对于上面的例子，我们将一段代码存放在123B0H~123B9H内存单元中，将其定义为代码段，如果要让这段代码得到执行，可设CS=123BH、IP=0000H。</p>
 ]]></content>
+      <categories>
+        <category>汇编语言笔记</category>
+      </categories>
+      <tags>
+        <tag>汇编语言笔记</tag>
+      </tags>
   </entry>
 </search>
