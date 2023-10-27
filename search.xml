@@ -1,38 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>test</title>
-    <url>/2023/10/27/test/</url>
-    <content><![CDATA[<h1>一级标题</h1>
-<h2 id="二级标题">二级标题</h2>
-<p>感言：</p>
-<p>终于历经九九八十一难，终于把这个个人博客搭建好了。</p>
+    <title>沉淀_随笔(一)</title>
+    <url>/2023/10/27/%E6%B2%89%E6%B7%80/</url>
+    <content><![CDATA[<p>忙活了好久，终于沉淀的步伐步入正规了。</p>
+<p>先谈谈最近吧，开始想学习了，这是好事，坏事就是还是太菜了。</p>
+<p>2023.10.24号，是个好日子，程序员节的当天，成功的更换了电脑，安装上了显示屏。之前想要的实验室，也暂时安了家，再配上显示屏、新电脑，之前梦寐以求的学习环境如今终于到来。</p>
+<p>花了一些时间搭建了博客，还是想要记录自己的学习生涯，是怎么从菜鸡，还是菜鸡的。</p>
+<p>再谈谈目前的状态，top10学的差不多了，但是学的不精通，也只能是囫囵吞枣。所以打算重新学习。比如SQL注入的绕过技术，文件上传更进一步，xss，csrf，ssrf等等都还需要深入学习。这一次再也没有理由找借口了。硬盘也加了2t，有更多的空间来实操了，电脑也是能带的动不卡了。好好沉淀吧。</p>
+<p>再谈谈后面的近期计划。</p>
+<p>今天再准备搭建一个win10虚拟机，用来作为自己的渗透机，到时候各种工具就可以放虚拟机里面了。</p>
+<p>然后把最近在学习的python爬虫继续学完，然后再打算学一下php。</p>
+<p>复习一下之前学的top10基础东西，顺便重温一下靶场或者一下题目。</p>
+<p>再一天写一道ctf题。</p>
+<ul>
+<li>[ ] 搭建win10虚拟机，搞好工具</li>
+<li>[ ] python爬虫</li>
+<li>[ ] php学习</li>
+<li>[ ] 复习top10漏洞原理</li>
+<li>[ ] 每周五道ctf题，类型不限，并一周写一篇文章总结</li>
+</ul>
+<p>大丈夫生居天地间  岂能郁郁久居人下</p>
 ]]></content>
       <categories>
-        <category>测试</category>
+        <category>随笔</category>
       </categories>
       <tags>
-        <tag>测试</tag>
+        <tag>随笔</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/10/25/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>标签</title>
