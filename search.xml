@@ -20,13 +20,28 @@
 ]]></content>
   </entry>
   <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
+    <title>test</title>
+    <url>/2023/10/27/test/</url>
+    <content><![CDATA[<h1>一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<p>感言：</p>
+<p>终于历经九九八十一难，终于把这个个人博客搭建好了。</p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>tags</title>
-    <url>/tags/index.html</url>
+    <title>分类</title>
+    <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
