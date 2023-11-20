@@ -1,125 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>测试4</title>
-      <link href="/2023/11/20/%E6%B5%8B%E8%AF%954/"/>
-      <url>/2023/11/20/%E6%B5%8B%E8%AF%954/</url>
-      
-        <content type="html"><![CDATA[<p>这是一个测试文章四</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>沉淀_随笔(一)</title>
+    <url>/2023/10/27/%E6%B2%89%E6%B7%80/</url>
+    <content><![CDATA[<p>忙活了好久，终于沉淀的步伐步入正规了。</p>
+<p>先谈谈最近吧，开始想学习了，这是好事，坏事就是还是太菜了。</p>
+<p>2023.10.24号，是个好日子，程序员节的当天，成功的更换了电脑，安装上了显示屏。之前想要的实验室，也暂时安了家，再配上显示屏、新电脑，之前梦寐以求的学习环境如今终于到来。</p>
+<p>花了一些时间搭建了博客，还是想要记录自己的学习生涯，是怎么从菜鸡，还是菜鸡的。</p>
+<p>再谈谈目前的状态，top10学的差不多了，但是学的不精通，也只能是囫囵吞枣。所以打算重新学习。比如SQL注入的绕过技术，文件上传更进一步，xss，csrf，ssrf等等都还需要深入学习。这一次再也没有理由找借口了。硬盘也加了2t，有更多的空间来实操了，电脑也是能带的动不卡了。好好沉淀吧。</p>
+<p>再谈谈后面的近期计划。</p>
+<p>今天再准备搭建一个win10虚拟机，用来作为自己的渗透机，到时候各种工具就可以放虚拟机里面了。</p>
+<p>然后把最近在学习的python爬虫继续学完，然后再打算学一下php。</p>
+<p>复习一下之前学的top10基础东西，顺便重温一下靶场或者一下题目。</p>
+<p>再一天写一道ctf题。</p>
+<ul>
+<li>[ ] 搭建win10虚拟机，搞好工具</li>
+<li>[ ] python爬虫</li>
+<li>[ ] php学习</li>
+<li>[ ] 复习top10漏洞原理</li>
+<li>[ ] 每周五道ctf题，类型不限，并一周写一篇文章总结</li>
+</ul>
+<p>大丈夫生居天地间  岂能郁郁久居人下</p>
+]]></content>
       <categories>
-          
-          <category> 测试 </category>
-          
+        <category>随笔</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>测试三</title>
-      <link href="/2023/11/20/%E6%B5%8B%E8%AF%95%E4%B8%89/"/>
-      <url>/2023/11/20/%E6%B5%8B%E8%AF%95%E4%B8%89/</url>
-      
-        <content type="html"><![CDATA[<p>hello.</p><p>这是一个测试文章。</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 测试 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>沉淀_随笔(二)</title>
-      <link href="/2023/11/20/%E6%B2%89%E6%B7%80_2/"/>
-      <url>/2023/11/20/%E6%B2%89%E6%B7%80_2/</url>
-      
-        <content type="html"><![CDATA[<h1>最近</h1><p>先测试一下，是使用图床加载快，还是使用本地图片加载快。</p>]]></content>
-      
-      
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试4</title>
+    <url>/2023/11/20/%E6%B5%8B%E8%AF%954/</url>
+    <content><![CDATA[<p>这是一个测试文章四</p>
+]]></content>
       <categories>
-          
-          <category> 随笔 </category>
-          
+        <category>测试</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 随笔 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>沉淀_随笔(一)</title>
-      <link href="/2023/10/27/%E6%B2%89%E6%B7%80/"/>
-      <url>/2023/10/27/%E6%B2%89%E6%B7%80/</url>
-      
-        <content type="html"><![CDATA[<p>忙活了好久，终于沉淀的步伐步入正规了。</p><p>先谈谈最近吧，开始想学习了，这是好事，坏事就是还是太菜了。</p><p>2023.10.24号，是个好日子，程序员节的当天，成功的更换了电脑，安装上了显示屏。之前想要的实验室，也暂时安了家，再配上显示屏、新电脑，之前梦寐以求的学习环境如今终于到来。</p><p>花了一些时间搭建了博客，还是想要记录自己的学习生涯，是怎么从菜鸡，还是菜鸡的。</p><p>再谈谈目前的状态，top10学的差不多了，但是学的不精通，也只能是囫囵吞枣。所以打算重新学习。比如SQL注入的绕过技术，文件上传更进一步，xss，csrf，ssrf等等都还需要深入学习。这一次再也没有理由找借口了。硬盘也加了2t，有更多的空间来实操了，电脑也是能带的动不卡了。好好沉淀吧。</p><p>再谈谈后面的近期计划。</p><p>今天再准备搭建一个win10虚拟机，用来作为自己的渗透机，到时候各种工具就可以放虚拟机里面了。</p><p>然后把最近在学习的python爬虫继续学完，然后再打算学一下php。</p><p>复习一下之前学的top10基础东西，顺便重温一下靶场或者一下题目。</p><p>再一天写一道ctf题。</p><ul><li>[ ] 搭建win10虚拟机，搞好工具</li><li>[ ] python爬虫</li><li>[ ] php学习</li><li>[ ] 复习top10漏洞原理</li><li>[ ] 每周五道ctf题，类型不限，并一周写一篇文章总结</li></ul><p>大丈夫生居天地间  岂能郁郁久居人下</p>]]></content>
-      
-      
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>沉淀_随笔(二)</title>
+    <url>/2023/11/20/%E6%B2%89%E6%B7%80_2/</url>
+    <content><![CDATA[<h1>最近</h1>
+<p>先测试一下，是使用图床加载快，还是使用本地图片加载快。</p>
+]]></content>
       <categories>
-          
-          <category> 随笔 </category>
-          
+        <category>随笔</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 随笔 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-  
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试三</title>
+    <url>/2023/11/20/%E6%B5%8B%E8%AF%95%E4%B8%89/</url>
+    <content><![CDATA[<p>hello.</p>
+<p>这是一个测试文章。</p>
+<p>修改修改修改</p>
+]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
 </search>
